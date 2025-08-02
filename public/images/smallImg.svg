@@ -1,0 +1,19 @@
+<svg width="925" height="1209" viewBox="0 0 925 1209" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="softGradientMobile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F7FA"/>
+      <stop offset="100%" stop-color="#D7EAFD"/>
+    </linearGradient>
+    <filter id="blurMobile" x="-100" y="-100" width="1125" height="1409">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="30" />
+    </filter>
+  </defs>
+
+  <rect width="925" height="1209" rx="30" fill="url(#softGradientMobile)"/>
+
+  <g filter="url(#blurMobile)" opacity="0.7">
+    <path d="M0 250 Q230 50 462 250 T925 250 V1209 H0 Z" fill="#D7EAFD" />
+    <path d="M0 550 Q230 350 462 550 T925 550 V1209 H0 Z" fill="#E0F7FA" />
+    <path d="M0 850 Q230 650 462 850 T925 850 V1209 H0 Z" fill="#BBDEFB" />
+  </g>
+</svg>

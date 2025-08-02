@@ -1,0 +1,32 @@
+<svg width="1864" height="1228" viewBox="0 0 1864 1228" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="softBGGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F7FA" />
+      <stop offset="50%" stop-color="#F9FCFF" />
+      <stop offset="100%" stop-color="#D7EAFD" />
+    </linearGradient>
+    <filter id="blurBlob" x="-1000" y="-1000" width="4000" height="4000">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="180" />
+    </filter>
+  </defs>
+
+  <rect width="1864" height="1228" rx="40" fill="url(#softBGGradient)" />
+
+  <!-- Left abstract shapes -->
+  <g opacity="0.4" filter="url(#blurBlob)">
+    <path d="M63 1061C300 1372 779 1401 848 1348C917 1296 548 1182 311 872C74 561 -173 352 -241 404C-310 456 -174 750 63 1061Z" fill="#BBDEFB" />
+    <rect width="402" height="1096" transform="matrix(-0.87 0.5 0.5 0.87 -191 422)" fill="#D7EAFD" fill-opacity="0.8" />
+  </g>
+
+  <!-- Right abstract shapes -->
+  <g opacity="0.4" filter="url(#blurBlob)">
+    <path d="M1956 986C1733 1278 1213 1253 1132 1191C1052 1130 1441 1056 1664 763C1886 471 2133 284 2213 345C2294 407 2179 694 1956 986Z" fill="#E0F7FA" />
+    <rect x="2056" y="402" width="402" height="1096" transform="rotate(30 2056 402)" fill="#BBDEFB" fill-opacity="0.8" />
+  </g>
+
+  <!-- Optional blur ellipses -->
+  <g opacity="0.2" filter="url(#blurBlob)">
+    <ellipse cx="1" cy="65" rx="104" ry="221" transform="rotate(30.7 1 65)" fill="#D7EAFD" />
+    <ellipse cx="1843" cy="45" rx="104" ry="221" transform="rotate(-30 1843 45)" fill="#E0F7FA" />
+  </g>
+</svg>

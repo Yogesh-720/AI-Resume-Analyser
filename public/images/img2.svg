@@ -1,0 +1,19 @@
+<svg width="1880" height="1866" viewBox="0 0 1880 1866" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="softGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F7FA"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+    <filter id="blur" x="-100" y="-100" width="2100" height="2100">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="30" />
+    </filter>
+  </defs>
+
+  <rect width="1880" height="1866" rx="40" fill="url(#softGradient)"/>
+
+  <g filter="url(#blur)" opacity="0.7">
+    <path d="M0 400 Q470 100 940 400 T1880 400 V1866 H0 Z" fill="#D7EAFD" />
+    <path d="M0 800 Q470 500 940 800 T1880 800 V1866 H0 Z" fill="#E0F7FA" />
+    <path d="M0 1200 Q470 900 940 1200 T1880 1200 V1866 H0 Z" fill="#BBDEFB" />
+  </g>
+</svg>

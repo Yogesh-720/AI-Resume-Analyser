@@ -76,7 +76,7 @@ const Upload = () => {
         console.log({companyName, jobTitle, jobDescription,file});
         if (!file) return;
 
-        handleAnalyze({ companyName, jobTitle, jobDescription, file });
+        handleAnalyze({ companyName, jobTitle, jobDescription, file }).catch((err: Error) => {console.log(err)});
     }
 
     return (

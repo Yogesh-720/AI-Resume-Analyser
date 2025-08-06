@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar flex justify-between">
             <Link to="/">
                 <p className="text-2xl font-bold text-gradient">
-                    RESUMIND
+                    ResumAI
                 </p>
             </Link>
             <Link to="/upload" className="primary-button w-fit">Upload Resume</Link>
